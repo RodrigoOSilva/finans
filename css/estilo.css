@@ -1,3 +1,7 @@
+body {
+        overflow-x: hidden;
+}
+
 #home {
     background: #ffc107;
     color: white;
@@ -17,13 +21,27 @@ footer p a {
 @media (max-width: 575.98px) {
     
     #home .input-group {
-        width: 335px;
+        width: 18em;
     }
+    .banner {
+        width: 21em;
+    }    
+    
+    .banner h2 {
+        font-size: 3em;
+    }
+    
     
 }
 
 /* Small devices (landscape phones, 576px and up)*/
-@media (min-width: 576px) and (max-width: 767.98px) { ... }
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .caixa.one img {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
 
 /* Medium devices (tablets, 768px and up)*/
 @media (min-width: 768px) and (max-width: 991.98px) { ... }
